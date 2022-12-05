@@ -1,0 +1,220 @@
+*{ 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body{ 
+    font-family: 'Inter', sans-serif;
+    background:  rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
+    font-size: 14px; 
+    line-height: 1.3; 
+    margin: 0;
+    font-weight: 400;
+} 
+a{ 
+    text-decoration: none; 
+    color: inherit; 
+} 
+li{ 
+    list-style: none; 
+} 
+.container{ 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 15px;
+} 
+.container-inner{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav{
+    background-color: #fff;
+    border-bottom: 2px E5E5E5 solid;
+    padding: 30px 0;
+}
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    padding: 0 50px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.nav-botoms{
+    display: flex;
+    align-items: center;
+}
+.item{
+    margin-right: 28px;
+    font-weight: 500;
+}
+.nav-icon{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 28px;
+}
+.constructor{
+    background-color: rgb(255, 255, 255);
+    padding: 12px ;
+    border-radius: 10px;
+    box-shadow: 0px 4px 7px rgba (0, 0, 0, 0, 15);
+    display: inline-block;
+}
+.con-icon{
+    margin-left: 10px;
+}
+.main-info{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    background-image: url(../img/interactive.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    margin-bottom: 140px;
+}
+.main-info-1{
+    font-size: 70px;
+}
+.main-buttum{
+    padding: 12px 30px;
+    background: #10BB87;
+    box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
+    border-radius: 10px;
+}
+.text-line{
+    background-image: url(../img/text-line.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+.branding-info{
+    max-width: 352px;
+
+}
+.branding-info p{
+    margin-bottom: 28px;
+}
+.branding{
+
+    padding-bottom: 70px;
+    border-bottom: 2px rgb(231, 212, 210) solid;
+    margin-bottom: 100px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 44px;
+
+}
+.branding-info p{
+    margin-top: 44px;
+
+}
+.branding-tltle{
+    margin-top: 16px;
+    display: block;
+}
+.branding-btn{
+    margin-top: -16px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    background: #10BB87;
+    box-shadow: 0px 9px 25px -4px rgba(72, 123, 108, 0.5);
+    border-radius: 10px;
+    
+}
+.advange-block{
+    margin-bottom: 160px;
+
+}
+.advange-col{
+    width: 192px;
+
+}
+.advange-col h4{
+    font-weight: 600;
+    position: relative;
+    padding-top: 55px;
+}
+.advange-title::before{
+    content:"" ;
+    width:46px ;
+    height: 41px;
+    position: absolute;
+    top: 0;
+
+}
+.advange-col p{
+    color: #000;
+}
+.advange-title-1::before{
+    background: url(../img/advange-sproit.png) -10px -10px; 
+
+}
+.advange-title-2::before{
+    background: url(../img/advange-sproit.png) -10px -117px; 
+}
+.advange-title-3::before{
+    background: url(../img/advange-sproit.png) -10px -175px; 
+}
+.advange-title-4::before{
+    background: url(../img/advange-sproit.png)  -10px -61px; 
+}
+.constructor-block{
+    position: relative;
+}
+.constructor-green{
+    width: 65%;
+    height: 384px;
+    background-color: #10BB87;
+    background-image: url(../img/constructor\ img.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    border-radius: 28px 0 0 0;
+    position: absolute;
+    right: 0;
+    z-index: -2;
+}
+.constructor-wrapper{
+    position: relative;
+}
+.constructor-img{
+    margin-top: 100px;
+}
+.constructor-info{
+    max-width: 352px;
+    margin-top: 50px;
+}
+.constructor-info .title{
+    color: #fff;
+}
+.constructor-info p{
+    margin-bottom: 28px;
+    color: #487B8c;
+}
+
+
+
+
+
+
